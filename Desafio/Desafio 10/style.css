@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@600&display=swap');
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body{
+    background-color: #82D9A0;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+header{
+    background-image: linear-gradient(to top, #2D734D, #3BD27F);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > h1{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    padding: 40px 0px 10px 0px;
+}
+header > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 20px 0px;
+    
+}
+nav {
+    background-color: #2D734D;
+    padding: 10px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-weight: bold;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px #7c787375;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    text-indent: 30px;
+    font-weight: normal;
+}
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    border: 4px;
+    margin: 1px;
+    margin-top: 20px;
+}
+aside#video {
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 40px;
+    margin: 1px;
+}
+h3 {
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 10px;
+}
+article {
+    background-color: #C5EBD6;
+    border-radius: 15px;
+    padding: 20px 10px;
+}
+.font {
+    font-family: idroid;
+    text-indent: 0px;
+    background-image: linear-gradient(to right, #84E1AD, white);
+    color: #1A5C38;
+}
+h1 {
+    margin: 0px;
+}
+.img{
+    text-align: center;
+}
+picture {
+    text-align: center;
+}
+span {
+    color: #2D734D;
+}
